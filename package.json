@@ -2,7 +2,7 @@
   "name": "ims-front-end",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.js",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel --no-cache",
     "build": "rm -rf "
