@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp UI</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script type="module" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script type="module" src="js/temp.js"></script>
+</head>
+<body class="p-2 text-center">
+    <h1>Temp UI</h1>
+    Name:
+    <input class="form-control" id="txt-name" type="text"><br>
+    Contact:
+    <input class="form-control" id="txt-contact" type="text"><br>
+    <button class="btn btn-primary" id="btn-add" type="button">Add</button>
+    <hr>
+    <table id="tbl" class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>
